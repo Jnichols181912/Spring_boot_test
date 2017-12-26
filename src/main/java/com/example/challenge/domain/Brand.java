@@ -21,7 +21,7 @@ public class Brand {
     @Column(name = "description")
     private String description;
 
-    public Brand() {}
+    protected Brand() {}
 
     public Brand(String name, String description) {
         this.name = name;
